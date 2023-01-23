@@ -1,12 +1,12 @@
 * {
   border: none;
-  font-family: PragmataPro Mono,Ubuntu Nerd Font,Weather Icons,sans-serif;
+  font-family: JetBrainsMono Nerd Font Mono,Ubuntu Nerd Font,Weather Icons,sans-serif;
   font-size: 16.5px;
   font-weight: bold;
 }
 
 window#waybar {
-  background-color: #282C34;
+  background-color: #1e1e1e;
   transition-property: background-color;
   transition-duration: .5s;
 }
