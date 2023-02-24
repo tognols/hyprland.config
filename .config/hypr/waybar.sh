@@ -10,7 +10,7 @@ killall -q "dunst"
 while pgrep -x waybar >/dev/null; do sleep 1; done
 
 # Launch main
-wbg ~/Pictures/wal.jpg &
+wbg ~/Pictures/custom_wallpaper.png &
 polkit-gnome-authentication-agent-1 &
 waybar -c $HOME/.config/hypr/tokyo -s $HOME/.config/hypr/tokyo.css
 sleep 2 && pamixer --set-volume 70

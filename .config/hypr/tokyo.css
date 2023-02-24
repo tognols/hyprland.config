@@ -6,7 +6,7 @@
 }
 
 window#waybar {
-  background-color: #1e1e1e;
+  background-color: rgba(30, 30, 30, 0);
   transition-property: background-color;
   transition-duration: .5s;
 }
@@ -41,7 +41,7 @@ window#waybar.hidden {
 #memory,
 #disk,
 #tray {
-  background-color: #252734;
+  background-color: rgba(30,30,30,0);
   padding: 0 12px;
   margin: 4px 4px 4px 4px;
   border-radius: 90px;
